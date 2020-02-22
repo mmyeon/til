@@ -64,7 +64,7 @@
   ],
   "scripts": {
     "build": "gatsby build",
-    "develop": "npm run clean && POSTS_FOLDER=mock_posts gatsby develop",
+    "develop": "POSTS_FOLDER=posts gatsby develop",
     "clean": "./clean.sh",
     "production": "./slowbuild.sh",
     "devhost": "gatsby develop --host 192.168.0.112",

@@ -5,7 +5,7 @@
 - content/posts에 파일 만들기 (mock_posts파일들 참고)
   - 날짜 형식을 prefix로 넣지 않으면 draft.
 
-### 실행
+### 개발용 구동
 
 `$ npm run develop`
 
