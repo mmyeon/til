@@ -27,7 +27,7 @@ import React from "react";
 //prop과 value로 컴포넌트에 정보를 보내면 리액트는 함수 컴포넌트의 인자(argument)로 프로퍼티를 넣는다.
 function Food(props) {
   console.log(props);
-  return <h1>I like potato</h1>;
+  return <h1> I like potato</h1>;
 }
 
 function App() {
@@ -184,7 +184,7 @@ export default App;
 ## KEY
 
 - 리액트의 모든 요소는 다르게 보여야 한다. 리액트는 이름과 사진이 달라도 구조가 같으면 같다고 인식. 그런 리액트를 위한 작업이 필요(유니크하도록 key 추가)
-  -react 내부를 위한 작업임. key prop은 자식 컴포넌트로 전달되지 않음. 사용하지 않음
+- react 내부를 위한 작업임. key prop은 자식 컴포넌트로 전달되지 않음. 사용하지 않음
 
 ```js
 key = {dish.id}
