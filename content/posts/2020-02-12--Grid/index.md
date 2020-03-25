@@ -1,6 +1,6 @@
 ---
 title: Flexbox와 Grid
-tags: ["css"]
+tags: ["CSS"]
 cover: grid.jpg
 author: mmyeon
 ---
