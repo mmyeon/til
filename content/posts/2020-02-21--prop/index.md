@@ -27,7 +27,7 @@ import React from "react";
 //prop과 value로 컴포넌트에 정보를 보내면 리액트는 함수 컴포넌트의 인자(argument)로 프로퍼티를 넣는다.
 function Food(props) {
   console.log(props);
-  return <h1> I like potato</h1>;
+  return <h1>I like potato</h1>;
 }
 
 function App() {
@@ -117,7 +117,7 @@ array.map();
 
 - 리액트에서 {}쓰면 자바스크립트임.
 
-### 다이나믹한 컴포넌트 만들기
+  ### 다이나믹한 컴포넌트 만들기
 
 1. 컴포넌트 만들고
 2. 컴포넌트에 전달할 정보 넣고 {프로퍼티 : 값}

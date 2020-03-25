@@ -1,7 +1,7 @@
 ---
 title: CSS 개념 정리하기 1
 tags: ["CSS"]
-cover: css.jpg
+cover: CSS.jpg
 author: mmyeon
 ---
 
