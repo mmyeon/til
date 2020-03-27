@@ -161,8 +161,8 @@ whois(user); // "jdoe is John"
 ## 내가 만난 비구조화 할당 다시 살펴보기
 
 ```js
-let a = 8,
-  b = 6;
+let a = 8;
+let b = 6;
 
 [a, b] = [b, a];
 
@@ -190,16 +190,6 @@ const user = { name: "John Doe", age: 34 };
 
 const { name: userName, age: userAge } = user;
 // userName = 'John Doe', userAge = 34
-```
-
-```js
-const {
-  johnDoe: { age: userAge, email: userEmail }
-} = user;
-// 같은 코드
-const user = {
-  johnDoe: { age: 34, email: "gmail.com" }
-};
 ```
 
 ```js
