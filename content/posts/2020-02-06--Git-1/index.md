@@ -1,6 +1,6 @@
 ---
 title: 버전 관리 시스템, Git 입문
-tags: ["git"]
+tags: ["Git"]
 cover: git.jpg
 author: mmyeon
 ---

@@ -1,6 +1,6 @@
 ---
 title: 절대경로와 상대경로
-tags: ["path"]
+tags: ["Path"]
 cover: path.jpg
 author: mmyeon
 ---

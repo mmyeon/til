@@ -1,6 +1,6 @@
 ---
 title: Project settings
-tags: ["clone-coding", "git"]
+tags: ["Clone-Coding", "Git"]
 cover: IMG_5290.jpg
 author: mmyeon
 ---

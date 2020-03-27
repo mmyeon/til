@@ -1,6 +1,6 @@
 ---
 title: React 준비사항
-tags: ["react"]
+tags: ["React"]
 cover: ready.jpg
 author: mmyeon
 ---
@@ -33,9 +33,9 @@ author: mmyeon
 ### 리액트코드 컴파일하기 (터미널 열기)
 
 1. documents로 가기 **cd Documents**
-2. **npx create-react-app (파일이름) movie\_app\_2020**
+2. **npx create-react-app (파일이름) movie_app_2020**
    - **npm(yarn)** 같은 의미
-3. vsc로 파일열기 : **터미널 > code movie\_app\_2020**
+3. vsc로 파일열기 : **터미널 > code movie_app_2020**
 4. README 내용 삭제하고 다시 작성하기
 
    > # Movie App 2020
@@ -52,9 +52,9 @@ author: mmyeon
    }
    ```
 
-6. 첫번째 application 실행하기 
+6. 첫번째 application 실행하기
    - VSC에서 터미널 실행(cmd + j)
-   >npm start (컴파일해서 이제 로컬과 브라우저(url)에서 볼 수 있다.)
+     > npm start (컴파일해서 이제 로컬과 브라우저(url)에서 볼 수 있다.)
 
 ---
 
