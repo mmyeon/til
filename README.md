@@ -11,11 +11,7 @@
 
 ### 배포
 
-```bash
-    $ npm run production
-    $ firebase login
-    $ firebase deploy
-```
+master push로 자동 배포
 
 # 참고
 

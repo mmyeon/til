@@ -71,6 +71,3 @@ yarn-error.log
 
 # other
 report/
-
-# firebase
-.firebase/
