@@ -29,8 +29,7 @@ function Example() {
     <div>
       <p> You clicked {count} times </p>
       // 사용자가 버튼을 클릭하면 setCount 함수 호출하여 state 변수 갱신
-      <button onClick={() => setCount(count + 1)}> </br>
-      Click me</button>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
     </div>
   );
 }
