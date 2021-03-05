@@ -1,6 +1,6 @@
 ---
 title: "git push 실패 오류 : git push -f"
-tags: ["GIT"]
+tags: ["Git"]
 cover: til.jpg
 author: mmyeon
 ---
