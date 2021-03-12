@@ -1,5 +1,5 @@
 ---
-title: "문제 43: 재귀함수(1)"
+title: "문제43 : 재귀함수(1)"
 tags: ["Algorithm"]
 cover: solve.jpg
 author: mmyeon
