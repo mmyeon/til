@@ -1,5 +1,5 @@
 ---
-title: "Minimum / Recursion / Bean counting"
+title: "문제 43 : Minimum / Recursion / Bean counting"
 tags: ["Algorithm"]
 cover: solve.jpg
 author: mmyeon
