@@ -4,6 +4,9 @@
   "author": "Baobab Koodaa",
   "description": "Feature-rich blog with streamlined design.",
   "license": "MIT",
+  "engines": {
+    "node": "^12.16.3"
+  },
   "dependencies": {
     "fontfaceobserver": "^2.0.13",
     "gatsby": "^2.19.32",
