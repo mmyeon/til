@@ -1,6 +1,6 @@
 ---
 title: React 라이브러리 추가 - react-multi-carousel
-tags: ["React"]
+tags: ["REACT"]
 cover: carousel.jpg
 author: mmyeon
 ---

@@ -1,6 +1,6 @@
 ---
 title: React 준비사항
-tags: ["React"]
+tags: ["REACT"]
 cover: ready.jpg
 author: mmyeon
 ---

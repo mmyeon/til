@@ -1,6 +1,6 @@
 ---
 title: "[React Hook] UseState"
-tags: ["React"]
+tags: ["REACT"]
 cover: hook.jpg
 author: mmyeon
 ---

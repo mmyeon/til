@@ -1,6 +1,6 @@
 ---
 title: 리액트 시작하기
-tags: ["React"]
+tags: ["REACT"]
 cover: what-is-react.jpg
 author: mmyeon
 ---

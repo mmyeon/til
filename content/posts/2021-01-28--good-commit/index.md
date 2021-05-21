@@ -1,6 +1,6 @@
 ---
 title: "알아두면 좋은 커밋 메세지 작성요령"
-tags: ["TIP"]
+tags: ["Git"]
 cover: til.jpg
 author: mmyeon
 ---

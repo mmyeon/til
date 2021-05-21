@@ -1,6 +1,6 @@
 ---
 title: Pure Functions without side effects
-tags: ["React"]
+tags: ["REACT"]
 cover: pure.jpg
 author: mmyeon
 ---

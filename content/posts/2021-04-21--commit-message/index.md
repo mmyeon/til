@@ -1,6 +1,6 @@
 ---
 title: "커밋 메세지를 점검해보자"
-tags: ["TIP"]
+tags: ["Git"]
 cover: til.jpg
 author: mmyeon
 ---

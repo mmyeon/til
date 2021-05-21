@@ -1,6 +1,6 @@
 ---
 title: prop
-tags: ["React"]
+tags: ["REACT"]
 cover: info.jpg
 author: mmyeon
 ---

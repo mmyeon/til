@@ -1,6 +1,6 @@
 ---
 title: "속성 선택자"
-tags: ["HTML, CSS"]
+tags: ["HTML", "CSS"]
 cover: select.jpg
 author: mmyeon
 ---
@@ -13,7 +13,7 @@ author: mmyeon
 <b>[attr=value]</br></b>
 attr 이름의 속성값이 value인 요소
 
-<h2>html</h2>
+<h2>HTML</h2>
 
 ```html
 <select class="js-select">
@@ -26,7 +26,7 @@ attr 이름의 속성값이 value인 요소
 const option = document.querySelector(`option[value=${selected}]`);
 ```
 
-<h2>css</h2>
+<h2>CSS</h2>
 
 ```css
 /* 타이틀 속성을 가진 a요소들  */

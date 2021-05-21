@@ -1,6 +1,6 @@
 ---
 title: export와 export default의 차이
-tags: ["React"]
+tags: ["REACT"]
 cover: export.jpg
 author: mmyeon
 ---
