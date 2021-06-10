@@ -8,7 +8,7 @@ author: mmyeon
 ## 왜 궁금해졌나요?
 
 프로젝트를 진행하다가 브랜치를 merge하기 위해서 `git merge`를 하자 <br>
-`Merge branch 'refactor' into main`라는 새로운 커밋 메세지가 생다.
+`Merge branch 'refactor' into main`라는 새로운 커밋 메세지가 생겼다.
 좀 더 깔끔하게 커밋메세지 없이 merge하고 싶어서 알아보다가 rebase에 대해 배웠다.
 
 ---
