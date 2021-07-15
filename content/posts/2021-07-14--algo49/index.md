@@ -27,14 +27,14 @@ Input: s = "III";
 Output: 3;
 ```
 
-### Example 3:
+### Example 2:
 
 ```js
 Input: s = "IX";
 Output: 9;
 ```
 
-### Example 4:
+### Example 3:
 
 ```js
 Input: s = "LVIII";
@@ -42,7 +42,7 @@ Output: 58;
 Explanation: (L = 50), (V = 5), (III = 3);
 ```
 
-### Example 5:
+### Example 4:
 
 ```js
 Input: s = "MCMXCIV"
