@@ -1,6 +1,6 @@
 ---
 title: "<img>요소 밑에 5px 공간 생긴 이유"
-tags: ["Git"]
+tags: ["CSS"]
 cover: til.jpg
 author: mmyeon
 ---
