@@ -1,5 +1,5 @@
 ---
-title: "리덕스를 왜 사용하는가"
+title: "리덕스 사용하기 전 알아야 할 개념"
 tags: ["REDUX"]
 cover: redux.png
 author: mmyeon
@@ -256,5 +256,5 @@ const toDos = createSlice({
 
 ## 참고
 
-[초보자를 위한 리덕스 101 - 노마드 코더 Nomad Coders](https://nomadcoders.co/redux-for-beginners)
+[초보자를 위한 리덕스 101 - 노마드 코더 Nomad Coders](https://nomadcoders.co/redux-for-beginners)<br>
 [Why React projects still use Redux](https://dev.to/alexandrudanpop/why-react-projects-still-use-redux-in-2020-395p)
