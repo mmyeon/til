@@ -25,16 +25,38 @@ dž는 무조건 하나의 알파벳으로 쓰이고, d와 ž가 분리된 것�
 
 입력으로 주어진 단어가 몇 개의 크로아티아 알파벳으로 이루어져 있는지 출력한다.
 
-### 주의해야 할 부분
+### 어떻게 풀었는가
 
-- 같은 문자가 반복해서 나타날 수 있다
+- 크로아티아 문자를 배열에 담아 반복문을 돌렸다.
+- 해당 문자가 포함되었는지 확인하기 위해서 `includes()`메서드를 사용했다.
+- 같은 문자가 반복되는 경우를 처리하기 위해서 `while문`을 사용했다.
+- 문자가 포함된 경우는 `replace()`메서드를 사용해 특정 문자열로 변경시켰다.
+- 입력받은 문자열을 변경해 재할당한 후 문자열의 길이를 출력했다.
 
 ```js
+let fs = require("fs");
+let input = fs
+  .readFileSync("/dev/stdin")
+  .toString()
+  .trim();
+let croatiaAlphabets = ["c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="];
+
+for (let i = 0; i < croatiaAlphabets.length; i++) {
+  let letter = croatiaAlphabets[i];
+
+  while (input.includes(letter)) {
+    input = input.replace(letter, "*");
+  }
+}
+
+console.log(input.length);
 ```
 
 ## WILT : What I Learned Today 🤔
 
-- `replace()`메서드로 원본 문자를 변경했더니 새로운 문자열 조합이 만들어져서 원하지 않는 결과를 만들어냈다. 다른 방법을 찾아봐야겠다.
+- `replace()`메서드로 해당 문자를 빈문자열로 변경했더니 앞 뒤 문자가 연결되어 원하지 않는 결과를 만들어냈다. 그래서 빈 문자열 대신에 특정 문자("\*")를 넣어서 해결했다.
+- 문자열이 반복되는 문제를 해결하기 위해서 고민하다가 반복문을 사용해야겠다는 생각이 들었고, 기존의 `includes()`메서드의 불리언값을 조건으로 `while문`을 사용했다. 평소 `for문`을 자주 써서 `while문`을 떠올리기까지 시간이 좀 걸렸다.
+- 어제부터 시간을 들여 고민했는데 결국 스스로 해결할 수 있어서 정말 뿌듯하다.
 
 ---
 
