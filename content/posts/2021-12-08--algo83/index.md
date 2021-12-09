@@ -23,13 +23,51 @@ author: mmyeon
 
 ### 어떻게 풀었는가
 
+- aa처럼 연속해서 입력되는 문자를 하나의 문자로 인식하기 위해서 새로운 배열을 만들어서 관리했다.
+- 같은 문자가 떨어져서 입력되는 경우를 알아내기 위해서 `filter()`메서드를 사용했다. 값의 처음 인덱스와 비교해서 다른 경우 `duplicate`변수에 담았다.
+- `duplicate`변수의 길이가 0인 경우는 중복이 없다는 뜻이므로 `groupWordCount`를 1씩 증가시켰다.
+
 ```js
+let fs = require("fs");
+let input = fs
+  .readFileSync("/dev/stdin")
+  .toString()
+  .trim()
+  .split("\n");
+
+let length = input[0];
+let unique = [];
+let groupWordCount = 0;
+
+for (let i = 1; i <= length; i++) {
+  let word = input[i];
+
+  for (let j = 0; j < word.length; j++) {
+    if (j === 0) {
+      unique.push(word[0]);
+    }
+
+    if (!unique.includes(word[j]) || unique[unique.length - 1] !== word[j]) {
+      unique.push(word[j]);
+    }
+  }
+
+  let duplicate = unique.filter((item, index) => unique.indexOf(item) !== index);
+  if (duplicate.length === 0) {
+    groupWordCount++;
+  }
+
+  unique = [];
+}
+
+console.log(groupWordCount);
 ```
 
 ## WILT : What I Learned Today 🤔
 
-- 문제에서 요구하는 부분 다시 한번 정리해서 조건별로 생각해보자.
+- 이틀 고민해서 문제를 풀 수 있었다.
 - 문제가 어렵다고 생각하면 어렵게 푸는 방법을 찾는 경향이 있다. 쉽다고 생각하고 접근해보자.
+- 내가 생각한 방법이 조금 구리다는 생각이 들어서 이걸 어쩌지. 더 나은 방법은 뭐지 고민하다가 '아무것도 떠오르지 않음' 늪에 빠졌다. 더 이상 답이 안 보여서 우선 구현하고 나중에 개선하자고 마음을 다 잡고 시간을 투자했더니 혼자서 풀 수 있었다.
 
 ---
 
