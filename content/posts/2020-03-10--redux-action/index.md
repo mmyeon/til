@@ -1,6 +1,6 @@
 ---
 title: Redux 2 - Redux Action
-tags: ["Redux"]
+tags: ["REDUX"]
 cover: state.jpg
 author: mmyeon
 ---

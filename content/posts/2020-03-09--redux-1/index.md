@@ -1,6 +1,6 @@
 ---
 title: Redux 1 - Redux Store
-tags: ["Redux"]
+tags: ["REDUX"]
 cover: state.jpg
 author: mmyeon
 ---
