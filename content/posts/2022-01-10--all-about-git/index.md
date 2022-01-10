@@ -19,31 +19,29 @@ author: mmyeon
 
 ### 전체 커밋 내역 확인
 
-\$ git log
+`$ git log`
 
 ### 원하는 커밋으로 돌아가기 = 타임머신
 
-\$ git checkout 커밋아이디(앞자리 7자리)
+`$ git checkout 커밋아이디(앞자리 7자리)`
 
 ### 최신 커밋으로 가기
 
-\$ git checkout -
+`$ git checkout -`
 
 ### 원격 저장소의 코드와 버전 전체를 로컬에 내려받기
 
 - 현재 폴더에 파일만 받을 때
 
-\$ git clone 원격저장소 주소 .
+`$ git clone 원격저장소 주소 .`
 
 - 새로운 폴더로 받을 때
 
-\$ git clone 원격저장소 주소
+`$ git clone 원격저장소 주소`
 
 ### 원격저장소의 변경사항(새로운 커밋) 로컬에 갱신하기
 
-\$ git pull origin master
-
-###
+`$ git pull origin master`
 
 ---
 
