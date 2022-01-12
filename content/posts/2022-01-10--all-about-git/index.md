@@ -51,6 +51,14 @@ author: mmyeon
 
 ---
 
+### HEAD
+
+- 해당 브랜치에서 가장 마지막에 만들어진 커밋을 가리킨다.
+- 그 브랜치의 마지막 커밋의 스냅샷이라고 생각하면 된다.
+- 다음에 만들어질 커밋의 부모가 된다.
+
+---
+
 ### 전체 커밋 내역 확인
 
 `$ git log`
@@ -79,6 +87,8 @@ author: mmyeon
 
 ### 브랜치 만들기
 
+`$ git branch 브랜치이름`
+
 ### 브랜치 이동하기
 
 ### 브랜치 병합하기
@@ -104,3 +114,5 @@ author: mmyeon
 책 - 팀 개발을 위한 Git, GitHub 시작하기
 
 [[Git] git add 취소하기, git commit 취소하기, git push 취소하기 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html)
+
+[Git - Reset Demystified](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified)
